@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "* Убедиться что уставновленный node.js и npm. Для этого достаточно написать в терминале > node -v",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadkuze/noktasan.git"
+  },
+  "author": "Vadim Kuznetsov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vadkuze/noktasan/issues"
+  },
+  "homepage": "https://github.com/vadkuze/noktasan#readme"
+}
