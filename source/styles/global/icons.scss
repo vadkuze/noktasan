@@ -1,0 +1,55 @@
+.icon-preview{
+    @include sprite($preview-sprite);
+}
+.icon-news{
+    @include sprite($news-sprite)
+}
+.icon-map{
+    @include sprite($map-sprite)
+}
+.icon-service{
+    @include sprite($service-sprite)
+}
+.icon-men{
+    @include sprite($men-sprite)
+}
+.icon-keys{
+    @include sprite($keys-sprite)
+}
+.icon-linkedin{
+    @include sprite($linkedin)
+}
+.icon-facebook{
+    @include sprite($facebook)
+}
+.icon-britain{
+    @include sprite($britain)
+}
+.icon-post{
+    @include sprite($post-sprite)
+}
+
+.icon-l,
+.icon-r{
+    width: 37px;
+    height: 37px;
+    border: 3px solid $theme-color;
+    position: relative;
+
+    &:hover .glyphicon{
+        color: white;
+    }
+    &:hover{
+        background-color: $theme-color;
+    }
+
+
+   .glyphicon{
+        position: absolute;
+        color: $theme-color;
+        top: calc(50% - 8px);
+        left: calc(50% - 7px);
+
+   }
+}
+

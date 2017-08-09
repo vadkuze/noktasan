@@ -1,0 +1,200 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$britain-name: 'britain';
+$britain-x: 39px;
+$britain-y: 69px;
+$britain-offset-x: -39px;
+$britain-offset-y: -69px;
+$britain-width: 19px;
+$britain-height: 19px;
+$britain-total-width: 133px;
+$britain-total-height: 124px;
+$britain-image: '../images/sprite.png';
+$britain: (39px, 69px, -39px, -69px, 19px, 19px, 133px, 124px, '../images/sprite.png', 'britain', );
+$facebook-name: 'facebook';
+$facebook-x: 105px;
+$facebook-y: 48px;
+$facebook-offset-x: -105px;
+$facebook-offset-y: -48px;
+$facebook-width: 19px;
+$facebook-height: 19px;
+$facebook-total-width: 133px;
+$facebook-total-height: 124px;
+$facebook-image: '../images/sprite.png';
+$facebook: (105px, 48px, -105px, -48px, 19px, 19px, 133px, 124px, '../images/sprite.png', 'facebook', );
+$keys-sprite-name: 'keys-sprite';
+$keys-sprite-x: 0px;
+$keys-sprite-y: 0px;
+$keys-sprite-offset-x: 0px;
+$keys-sprite-offset-y: 0px;
+$keys-sprite-width: 48px;
+$keys-sprite-height: 48px;
+$keys-sprite-total-width: 133px;
+$keys-sprite-total-height: 124px;
+$keys-sprite-image: '../images/sprite.png';
+$keys-sprite: (0px, 0px, 0px, 0px, 48px, 48px, 133px, 124px, '../images/sprite.png', 'keys-sprite', );
+$linkedin-name: 'linkedin';
+$linkedin-x: 86px;
+$linkedin-y: 48px;
+$linkedin-offset-x: -86px;
+$linkedin-offset-y: -48px;
+$linkedin-width: 19px;
+$linkedin-height: 19px;
+$linkedin-total-width: 133px;
+$linkedin-total-height: 124px;
+$linkedin-image: '../images/sprite.png';
+$linkedin: (86px, 48px, -86px, -48px, 19px, 19px, 133px, 124px, '../images/sprite.png', 'linkedin', );
+$map-sprite-name: 'map-sprite';
+$map-sprite-x: 0px;
+$map-sprite-y: 48px;
+$map-sprite-offset-x: 0px;
+$map-sprite-offset-y: -48px;
+$map-sprite-width: 39px;
+$map-sprite-height: 46px;
+$map-sprite-total-width: 133px;
+$map-sprite-total-height: 124px;
+$map-sprite-image: '../images/sprite.png';
+$map-sprite: (0px, 48px, 0px, -48px, 39px, 46px, 133px, 124px, '../images/sprite.png', 'map-sprite', );
+$men-sprite-name: 'men-sprite';
+$men-sprite-x: 90px;
+$men-sprite-y: 0px;
+$men-sprite-offset-x: -90px;
+$men-sprite-offset-y: 0px;
+$men-sprite-width: 43px;
+$men-sprite-height: 44px;
+$men-sprite-total-width: 133px;
+$men-sprite-total-height: 124px;
+$men-sprite-image: '../images/sprite.png';
+$men-sprite: (90px, 0px, -90px, 0px, 43px, 44px, 133px, 124px, '../images/sprite.png', 'men-sprite', );
+$news-sprite-name: 'news-sprite';
+$news-sprite-x: 30px;
+$news-sprite-y: 94px;
+$news-sprite-offset-x: -30px;
+$news-sprite-offset-y: -94px;
+$news-sprite-width: 26px;
+$news-sprite-height: 26px;
+$news-sprite-total-width: 133px;
+$news-sprite-total-height: 124px;
+$news-sprite-image: '../images/sprite.png';
+$news-sprite: (30px, 94px, -30px, -94px, 26px, 26px, 133px, 124px, '../images/sprite.png', 'news-sprite', );
+$post-sprite-name: 'post-sprite';
+$post-sprite-x: 39px;
+$post-sprite-y: 48px;
+$post-sprite-offset-x: -39px;
+$post-sprite-offset-y: -48px;
+$post-sprite-width: 47px;
+$post-sprite-height: 21px;
+$post-sprite-total-width: 133px;
+$post-sprite-total-height: 124px;
+$post-sprite-image: '../images/sprite.png';
+$post-sprite: (39px, 48px, -39px, -48px, 47px, 21px, 133px, 124px, '../images/sprite.png', 'post-sprite', );
+$preview-sprite-name: 'preview-sprite';
+$preview-sprite-x: 0px;
+$preview-sprite-y: 94px;
+$preview-sprite-offset-x: 0px;
+$preview-sprite-offset-y: -94px;
+$preview-sprite-width: 30px;
+$preview-sprite-height: 30px;
+$preview-sprite-total-width: 133px;
+$preview-sprite-total-height: 124px;
+$preview-sprite-image: '../images/sprite.png';
+$preview-sprite: (0px, 94px, 0px, -94px, 30px, 30px, 133px, 124px, '../images/sprite.png', 'preview-sprite', );
+$search-name: 'search';
+$search-x: 58px;
+$search-y: 69px;
+$search-offset-x: -58px;
+$search-offset-y: -69px;
+$search-width: 15px;
+$search-height: 15px;
+$search-total-width: 133px;
+$search-total-height: 124px;
+$search-image: '../images/sprite.png';
+$search: (58px, 69px, -58px, -69px, 15px, 15px, 133px, 124px, '../images/sprite.png', 'search', );
+$service-sprite-name: 'service-sprite';
+$service-sprite-x: 48px;
+$service-sprite-y: 0px;
+$service-sprite-offset-x: -48px;
+$service-sprite-offset-y: 0px;
+$service-sprite-width: 42px;
+$service-sprite-height: 46px;
+$service-sprite-total-width: 133px;
+$service-sprite-total-height: 124px;
+$service-sprite-image: '../images/sprite.png';
+$service-sprite: (48px, 0px, -48px, 0px, 42px, 46px, 133px, 124px, '../images/sprite.png', 'service-sprite', );
+$spritesheet-width: 133px;
+$spritesheet-height: 124px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($britain, $facebook, $keys-sprite, $linkedin, $map-sprite, $men-sprite, $news-sprite, $post-sprite, $preview-sprite, $search, $service-sprite, );
+$spritesheet: (133px, 124px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

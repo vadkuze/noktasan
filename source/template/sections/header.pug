@@ -1,0 +1,23 @@
+header.header
+    .container
+        .row
+            .logo.col-md-3: img.logo__picture(src="../images/logo.png")
+            .navigation.col-md-9
+                .navigation__info.col-md-5.col-md-offset-7
+                    input(type="text" placeholder='Arama').navigation__search
+                    .icon-linkedin.navigation__social
+                    .icon-facebook.navigation__social
+                    .icon-britain.navigation__social
+                nav.navigation__menu
+                    -var items = ['KURUMSAL', 'ÜRÜNLER', '2.EL ÜRÜNLER','KİRALAMA', 'YEDEK PARÇA', 'BAYİ & SERVİSLER', 'REFERANSLAR', 'İLETİŞİM']
+                    each item in items
+                        a.navigation__item=item
+        .row
+            .header__title.col-md-4
+                h1.header__caption UYGUN FİYAT AKILLI ÇÖZÜMLER
+                .header__line
+                p.header__description Sıfır ve ikinci el satış, kiralama, yedek parça, güçlü servis desteği.
+                .icon-l.inline-block
+                    .glyphicon.glyphicon-chevron-left
+                .icon-r.inline-block
+                    .glyphicon.glyphicon-chevron-right

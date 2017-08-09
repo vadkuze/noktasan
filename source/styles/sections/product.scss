@@ -1,0 +1,15 @@
+.product{
+    background: #eeeeee url(../images/city.png) center 60px no-repeat;
+    position: relative;
+    height: 300px;
+
+    &__list{
+        margin-top: 100px;
+    }
+}
+.left{
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    @include centerer-y();
+}

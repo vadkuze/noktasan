@@ -1,0 +1,27 @@
+mixin menu(header, array)
+    .info__title.col-md-2
+        h2.info__header=header
+        ul.info__list
+            -var items = array
+            each item in items
+                li.info__item=item
+
+footer.footer.container-fluide
+    .footer__top
+        .container
+            .row
+                +menu("KURUMSAL", ['Hakkımızda', 'Haberler', 'Sertifikalar','İnsan Kaynakları'])  
+                +menu("ÜRÜNLER", ['Forkliftler','Yüksek Tonajlı Forliftler', 'İstif Makinaları','Çekiciler','Personel Yükselticiler'])  
+                +menu("YEDEK PARÇA", ['Forklift Aküleri', 'Forklift Lastikleri'])  
+                +menu("İLETİŞİM", ['Adres', 'İletişim Formu', 'Ürün Bilgi Formu', 'Kiralama Talep Formu'])
+                .info__title.form.col-md-4
+                    h2.info__header E-BÜLTEN 
+                    p E-Bültene katılın ! Sektördeki tüm yeniliklerden haberiniz olsun 
+                    form
+                        .input-group
+                            input.form__email.form-control(type="email" placeholder='E-posta adresinizi giriniz...')
+                            span.input-group-addon: img(src="../images/icons/post-sprite.png")
+    .footer__bottom
+        .container
+            .footer__copy.pull-left 2015 Copyright © | Tüm Hakları Saklıdır
+            .footer__mediaclick.pull-right Web Tasarım MediaClick
